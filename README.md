@@ -32,3 +32,13 @@ We then start doing the second pass which filters along the flow curves induced 
 <br>
 <br>
 <img src="/results/lalaland/GaussianSecondPass1.png">
+<br>
+<br>
+We can then apply the FDoG again on the image to further eliminate the noise and smooth the image.
+<br>
+<br>
+<img src="/results/lalaland/GaussianSecondPass2.png">
+
+# TODO
+1) Implement anti-aliasing to the final image.
+2) Use cupy to speed up the process.
