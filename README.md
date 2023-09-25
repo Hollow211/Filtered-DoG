@@ -8,6 +8,7 @@ It works by simply subtracting 2 gaussians (multiplied by a sharpening factor) t
 <br>
 Increasing the sharpeness factor allow the filter to detect more edges, however it introduces a new problem.
 <br>
+<br>
 <img src="/results/lalaland/ExtendedDoG.png">
 <br>
 
@@ -21,4 +22,7 @@ In order to do this however we need to get what is known as *Vector Field* which
 <br>
 We first get the Structure Tensor of the image. We then calculate the eigenvalues and their corresponding eigenvector, we are only interested about the minor eigenvector which points in the direction of the gradient. <br>
 In my implementation I used this [package](https://github.com/Skielex/structure-tensor) which really simplimfies the process of generating the vector field.
-<img src="/results/lalalandGaussianPass1.png">
+<br>
+<img src="/results/lalaland/GaussianPass1.png" style="margin: 10px 0px">
+<br>
+We then 
