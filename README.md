@@ -38,6 +38,23 @@ We can then apply the FDoG again on the image to further eliminate the noise and
 <br>
 <br>
 <img src="/results/lalaland/GaussianSecondPass2.png">
+<br>
+<br>
+
+# Examples
+## 1) CyperPunk
+<br>
+<br>
+<img src="/results/Cyperpunk/moonog.png">
+<br><br>
+<img src="/results/Cyperpunk/moon.png">
+<br><br>
+## 2) American Psycho
+<img src="/results/AmericanPsycho/im1.png">
+<br><br>
+<img src="results/AmericanPsycho/im1Og.png">
+<br><br>
+
 
 # TODO
 1) Implement anti-aliasing to the final image.
