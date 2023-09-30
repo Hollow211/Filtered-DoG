@@ -52,9 +52,9 @@ We can then apply the FDoG again on the image to further eliminate the noise and
 <br><br>
 
 ## 2) American Psycho
-<img src="/results/AmericanPsycho/im1.png">
-<br><br>
 <img src="results/AmericanPsycho/im1Og.png">
+<br><br>
+<img src="/results/AmericanPsycho/im1.png">
 <br><br>
 
 
