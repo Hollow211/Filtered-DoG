@@ -3,6 +3,7 @@
 <br>
 Exploring difference of gaussians as a low pass filter which can eliminate high frequencies that in the context of image processing corresponds to edges.
 <br>
+
 # 1) Extended DoG
 It works by simply subtracting 2 gaussians (multiplied by a sharpening factor) that convolve on the whole image, the effect can be further stylized by thresholding the final result.
 <br>
@@ -38,6 +39,24 @@ We can then apply the FDoG again on the image to further eliminate the noise and
 <br>
 <br>
 <img src="/results/lalaland/GaussianSecondPass2.png">
+<br>
+<br>
+
+# Examples
+## 1) CyperPunk
+<br>
+<br>
+<img src="/results/Cyperpunk/moonog.png">
+<br><br>
+<img src="/results/Cyperpunk/moon.png">
+<br><br>
+
+## 2) American Psycho
+<img src="results/AmericanPsycho/im1Og.png">
+<br><br>
+<img src="/results/AmericanPsycho/im1.png">
+<br><br>
+
 
 # TODO
 1) Implement anti-aliasing to the final image.
