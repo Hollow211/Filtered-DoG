@@ -3,6 +3,17 @@
 <br>
 Exploring difference of gaussians as a low pass filter which can eliminate high frequencies that in the context of image processing corresponds to edges.
 <br>
+<br>
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Filtred-DoG</th>
+  </tr>
+  <tr>
+    <td><img src="/results/Dog/DogOG.png" alt="Original"></td>
+    <td><img src="/results/Dog/Dog.png" alt="DoG"></td>
+  </tr>
+</table>
 
 # 1) Extended DoG
 It works by simply subtracting 2 gaussians (multiplied by a sharpening factor) that convolve on the whole image, the effect can be further stylized by thresholding the final result.
